@@ -1,7 +1,6 @@
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { useState } from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import logo from "../assets/images/logo.png";
 
@@ -18,19 +17,29 @@ export const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home">Home</Link>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="about">About</Link>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="skills">Skills</Link>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
         </li>
         <li>
-          <Link to="projects">Projects</Link>
+          <Link to="projects" smooth={true} duration={500}>
+            Work
+          </Link>
         </li>
         <li>
-          <Link to="contact">Contact</Link>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
 
