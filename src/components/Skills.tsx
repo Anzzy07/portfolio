@@ -14,7 +14,7 @@ export const Skills = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-4xl font-bold inline border-b-4 border-red-600 ">
             Skills
           </p>
           <p className="py-4">// These are the technologies I've worked with</p>
@@ -47,7 +47,7 @@ export const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={S3} alt="HTML icon" />
-            <p className="my-4">AMAZON S3</p>
+            <p className="my-4">S3 Bucket</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
@@ -55,7 +55,7 @@ export const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Go} alt="HTML icon" />
-            <p className="my-4">Golang (Basic)</p>
+            <p className="my-4">GOLANG (BASIC)</p>
           </div>
         </div>
       </div>

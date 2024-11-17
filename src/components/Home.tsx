@@ -1,5 +1,6 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { IoMdDownload } from "react-icons/io";
+import { Link } from "react-scroll";
 
 export const Home = () => {
   return (
@@ -18,18 +19,27 @@ export const Home = () => {
           will be learning Next.js. Until please explore around.
         </p>
         <div className="flex space-x-4">
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-600 hover:border-red-600 cursor-pointer"
+          >
             Contact Me
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
-          </button>
-          <button className=" text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600">
+          </Link>
+          <a
+            href="/path-to-your-cv.pdf"
+            download="Anzel_Acharya_CV.pdf"
+            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600"
+          >
             Download CV
             <span className="ml-2 group-hover:scale-110 duration-300">
               <IoMdDownload />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
