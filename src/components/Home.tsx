@@ -1,6 +1,7 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { IoMdDownload } from "react-icons/io";
 import { Link } from "react-scroll";
+import Resume from "../assets/Anzel_Resume.pdf";
 
 export const Home = () => {
   return (
@@ -31,7 +32,7 @@ export const Home = () => {
             </span>
           </Link>
           <a
-            href="/path-to-your-cv.pdf"
+            href={Resume}
             download="Anzel_Acharya_CV.pdf"
             className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600"
           >
