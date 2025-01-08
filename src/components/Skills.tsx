@@ -7,6 +7,7 @@ import ReactNative from "../assets/images/react native.png";
 import S3 from "../assets/images/aws.png";
 import Tailwind from "../assets/images/tailwind.png";
 import Go from "../assets/images/golang.png";
+import Next from "../assets/images/next.png";
 
 export const Skills = () => {
   return (
@@ -56,6 +57,10 @@ export const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Go} alt="HTML icon" />
             <p className="my-4">GOLANG (BASIC)</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Next} alt="HTML icon" />
+            <p className="my-4">NEXTJS </p>
           </div>
         </div>
       </div>

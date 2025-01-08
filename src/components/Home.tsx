@@ -16,8 +16,8 @@ export const Home = () => {
           I'm a Frontend Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I enjoy building sites & apps. My Focus is React(TypeScript). Soon
-          will be learning Next.js. Until please explore around.
+          I enjoy building sites & apps. My Focus is React(TypeScript).Now, I
+          have learned Nextjs. You can explore me.
         </p>
         <div className="flex space-x-4">
           <Link
