@@ -1,6 +1,6 @@
 import Khojkhaz from "../assets/images/khojkhaz.jpg";
 import Movie from "../assets/images/movierating.png";
-import Job from "../assets/images/joblisting.png";
+import Ecom from "../assets/images/P1.png";
 
 export const Projects = () => {
   return (
@@ -77,7 +77,7 @@ export const Projects = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Job})` }}
+            style={{ backgroundImage: `url(${Ecom})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
           >
